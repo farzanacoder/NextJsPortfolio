@@ -4,13 +4,14 @@ import Proimg1 from '../../public/images/img2.png'
 import Proimg2 from '../../public/images/img4.png'
 import Proimg3 from '../../public/images/img3.png'
 import PrjectList from "../components/PrjectList";
+import Title from "../components/Title";
 
 
 export default function Projects() {
   return (
     <section className="mt-[146px]">
       <div className="container">
-        <p className="text-5xl text-center font-bold w-[622.19px] m-auto mb-14">A small selection of recent <span className="text-[#53EAFD]">projects</span></p>
+        <Title title='A small selection of recent' span='projects'/>
 
         <div className="flex flex-wrap gap-[42px] justify-between">
             <PrjectList img={Proimg} text='Apps , UI/UX' title='Modern Finance Dashboard UI'/>

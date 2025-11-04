@@ -1,12 +1,13 @@
 import React from 'react'
 import ExpList from '../components/ExpList'
+import Title from '../components/Title'
 
 export default function Experience() {
   return (
     <section>
        <div className="container flex justify-between">
          <div>
-            <p className='text-4xl font-bold'>My Work <span className='text-[#A2F4FD]'>Experience</span></p>
+        <Title title='My Work' span='Experience'/>
             <ExpList/>
             <ExpList/>
             <ExpList/>

@@ -14,7 +14,7 @@ export default function Experience() {
         </div>
 
          <div>
-            <p className='text-4xl font-bold'>My  <span className='text-[#A2F4FD]'>Education</span></p>
+        <Title title='My Work' span='Education'/>
             <ExpList/>
             <ExpList/>
             <ExpList/>

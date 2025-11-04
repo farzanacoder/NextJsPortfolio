@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <section className="mt-[146px]">
       <div className="container">
-        <Title title='A small selection of recent' span='projects'/>
+        <Title title='A small selection of recent' span='projects' className=' w-[622.19px] m-auto'/>
 
         <div className="flex flex-wrap gap-[42px] justify-between">
             <PrjectList img={Proimg} text='Apps , UI/UX' title='Modern Finance Dashboard UI'/>

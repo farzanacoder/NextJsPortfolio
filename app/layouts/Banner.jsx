@@ -5,7 +5,7 @@ import { BsArrowRight } from 'react-icons/bs';
 import Typewriter from 'typewriter-effect';
 import ParticleBg from '../components/ParticleBg';
 import Hero from "@/public/images/hero.png";
-import Button from "../components/Button";
+// import Button from "../components/Button";
 
 export default function Banner() {
   return (

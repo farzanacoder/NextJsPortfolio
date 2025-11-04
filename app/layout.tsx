@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from '@/app/layouts/Header'
 import Footer from '@/app/layouts/Footer'
 import ScrollToTop from '@/app/components/ScrollToTop'
+import ReasponsiveNav from "./Navber/ResponsiveNav";
 
 
 export const metadata: Metadata = {
@@ -18,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header/>
+        <ReasponsiveNav/>
         {children}
         <Footer/>
         <ScrollToTop />

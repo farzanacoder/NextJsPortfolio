@@ -1,10 +1,10 @@
-import React from 'react'
-import { GrFacebookOption } from 'react-icons/gr'
+import React from "react";
+import { GrFacebookOption } from "react-icons/gr";
 
-export default function Socialicon() {
+export default function Socialicon({ icon: Icon }) {
   return (
-    <div className='bg-[#162456] w-[60px] h-[60px] flex items-center justify-center rounded-full'>
-      <GrFacebookOption size={30}/>
+    <div className="h-14 w-14 bg-blue-950/60 rounded-full items-center flex justify-center cursor-pointer hover:bg-blue-800 transition-all duration-300 flex-col">
+      <Icon className="text-white h-6 w-6" />
     </div>
-  )
+  );
 }

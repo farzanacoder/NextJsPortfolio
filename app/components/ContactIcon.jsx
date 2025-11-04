@@ -1,11 +1,10 @@
-import React from 'react'
-import { BsTelephone } from 'react-icons/bs'
+import React from "react";
 
-export default function ContactIcon() {
+export default function ContactIcon({txt , icon:Icon}) {
   return (
-    <div className='flex gap-5 items-center my-5'>
-        <BsTelephone size={20} className='text-[#53EAFD]'/>
-        <p className='text-[20px] font-bold text-[#99A1AF]'>+9843582345</p>
+    <div className="flex items-center space-x-3 mb-4">
+      <Icon className="h-9 w-9 text-cyan-300" />
+      <p className="text-xl font-bold text-gray-400">{txt}</p>
     </div>
-  )
+  );
 }

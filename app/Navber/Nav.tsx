@@ -26,7 +26,7 @@ const Nav = ({openNav}:Props) => {
 
 
   return (
-    <div className={`transition-all duration-200 h-[12vh] z-[1000] fixed w-full ${navBg ? 'bg-[#0f142ed9] shadow-md' : 'fixed'}`}>
+    <div id='home' className={`transition-all duration-200 h-[12vh] z-[1000] fixed w-full ${navBg ? 'bg-[#0f142ed9] shadow-md' : 'fixed'}`}>
         <div className='flex items-center h-full justify-between mx-auto w-[90%]'>
             <div className="logo flex items-center space-x-2">
                 <div className='h-10 w-10 bg-white rounded-full flex items-center justify-center flex-col'>
@@ -46,7 +46,7 @@ const Nav = ({openNav}:Props) => {
             </div>
 
             <div className="flex items-center space-x-4">
-              <button className='px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900 transition-all duration-300 text-white flex items-center space-x-2'>
+              <button className='px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-[#0C1E5D] hover:bg-blue-900 transition-all duration-300 text-white flex items-center space-x-2'>
                 <AiOutlineDownload className='h-5 w-5' />
                 <span>Download Cv</span>
               </button>
